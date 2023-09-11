@@ -25,9 +25,33 @@ we need it to keep track of our dependcies that we install
 ```
 npm install tailwindcss
 ```
-After install we can check it package.json 
+After install we can check it package.json and node_modulse add it to the project that when all tailwind files stored
 ```
 "dependencies": {
     "tailwindcss": "^3.3.3"
   }
+```
+
+###How is the tailwind work.
+We can use tailwind on it own or we can use it as plugin with post CSS.
+when we use it by create style.css that we use tailwind to process into vanilla css output file at build time
+with all of the final css rule inside. Everytime we make a change to our style.css we need to run tailwind script to process it.
+
+![Alt text](readmeImage/tailwind_process.png)
+
+Step
+Create scr folder 
+Create public folder
+Create styles.css in src 
+styles.css add the base functionalily of tailwind (tailwind directive) (go to tailwind doc https://tailwindcss.com/docs/installation ) 
+Go to package.json and add the script
+```
+ "scripts": {
+    
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+```
+Run the script using npm command
+```
+npm run build-css
 ```
