@@ -51,7 +51,8 @@ Go to package.json and add the script
     "build-css": "tailwindcss build src/styles.css -o public/styles.css"
   },
 ```
-Run the script using npm command
+Run the script using npm command it will create styles.css in the public folder
 ```
 npm run build-css
 ```
+Create index.html in the public folder
