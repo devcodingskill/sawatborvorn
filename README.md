@@ -1,5 +1,6 @@
 # sawatborvorn
 Step
+- Install Vscode and add live server and tailwindcss plugin
 - Install node  https://nodejs.org/en/download
 - On the project need to install npm => 
 ```c
@@ -40,19 +41,20 @@ with all of the final css rule inside. Everytime we make a change to our style.c
 ![Alt text](readmeImage/tailwind_process.png)
 
 Step
-Create scr folder 
-Create public folder
-Create styles.css in src 
-styles.css add the base functionalily of tailwind (tailwind directive) (go to tailwind doc https://tailwindcss.com/docs/installation ) 
-Go to package.json and add the script
+- Create scr folder 
+- Create public folder
+- Create styles.css in src 
+- styles.css add the base functionalily of tailwind (tailwind directive) (go to tailwind doc https://tailwindcss.com/docs/installation ) 
+- Go to package.json and add the script
 ```
  "scripts": {
     
     "build-css": "tailwindcss build src/styles.css -o public/styles.css"
   },
 ```
-Run the script using npm command it will create styles.css in the public folder
+- Run the script using npm command it will create styles.css in the public folder
 ```
 npm run build-css
 ```
-Create index.html in the public folder
+- Create index.html in the public folder
+Tailwind give us a low-level utillty classes to style html element.
