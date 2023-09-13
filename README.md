@@ -50,6 +50,7 @@ Step
  "scripts": {
     
     "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+    "watch": "tailwindcss build src/styles.css -o public/styles.css --watch" //continous watch that change and complie
   },
 ```
 - Run the script using npm command it will create styles.css in the public folder
@@ -58,3 +59,7 @@ npm run build-css
 ```
 - Create index.html in the public folder
 Tailwind give us a low-level utillty classes to style html element.
+- Create tailwind config file (we create one with --full so we can see sample the file how tailwind work then we create empty one)
+```
+npx tailwindcss init --full  
+```
