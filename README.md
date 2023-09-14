@@ -62,4 +62,7 @@ Tailwind give us a low-level utillty classes to style html element.
 - Create tailwind config file (we create one with --full so we can see sample the file how tailwind work then we create empty one)
 ```
 npx tailwindcss init --full  
+npx tailwindcss init --full  
 ```
+![Alt text](readmeImage/tailwindConfigFull.png)
+![Alt text](readmeImage/tailwindConfig.png)
