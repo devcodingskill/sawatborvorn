@@ -66,3 +66,16 @@ npx tailwindcss init --full
 ```
 ![Alt text](readmeImage/tailwindConfigFull.png)
 ![Alt text](readmeImage/tailwindConfig.png)
+
+- To add style on tailwind it normaly do it on the tailwind config as defaul value by extend
+```c
+ extend: {
+        colors:{
+          primary:'#FF6363',
+          secondary:{
+             100:'#E2E2D5',
+             200:'#888883'
+        }
+        }
+      },
+```
