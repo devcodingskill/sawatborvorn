@@ -79,3 +79,9 @@ npx tailwindcss init --full
         }
       },
 ```
+### Link 
+- https://tailwindcss.com/docs/installation
+- https://tailwind-elements.com/docs/standard/components/gallery/
+- https://www.youtube.com/watch?v=-GmnyjgI4Jc
+- https://www.youtube.com/watch?v=WK6u8YDYqak&list=PL4cUxeGkcC9gpXORlEHjc5bgnIi5HEGhw&index=8
+- https://www.youtube.com/watch?v=arftp8kFBBg
