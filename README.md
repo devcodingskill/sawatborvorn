@@ -23,11 +23,11 @@ we need it to keep track of our dependcies that we install
 }
 ```
 - Install tailwind 
-```
+```c
 npm install tailwindcss
 ```
 After install we can check it package.json and node_modulse add it to the project that when all tailwind files stored
-```
+```c
 "dependencies": {
     "tailwindcss": "^3.3.3"
   }
@@ -46,7 +46,7 @@ Step for install tailwind and tailwind element
 - Create styles.css in src (on tailwind input.css)
 - styles.css add the base functionalily of tailwind (tailwind directive) (go to tailwind doc https://tailwindcss.com/docs/installation ) 
 - Go to package.json and add the script it will able us to run npm not npx so we can run the script on the terminal
-```
+```c
  "scripts": {
     
     "build-css": "tailwindcss build src/styles.css -o public/styles.css"
@@ -54,13 +54,13 @@ Step for install tailwind and tailwind element
   },
 ```
 - Run the script using npm command it will create styles.css in the public folder
-```
+```c
 npm run build-css
 ```
 - Create index.html in the public folder
 Tailwind give us a low-level utillty classes to style html element.
 - Create tailwind config file (we create one with --full so we can see sample the file how tailwind work then we create empty one)
-```
+```c
 npx tailwindcss init --full  
 npx tailwindcss init --full  
 ```
@@ -101,7 +101,7 @@ module.exports = {
  ```
  - After install tailwind and should test it work 
  - Install tailwind element 
- ```
+ ```c
  npm install tw-elements
  ```
  - Modify config file => tailwind element install to "/node_modules/tw-elements/dist/"
@@ -128,12 +128,12 @@ module.exports = {
   };
  ```
  - Add js script to indext.html file
- ```
+ ```c
  <script
   type="text/javascript"
   src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></script>
  ```
- 
+
 ### Link 
 - https://tailwindcss.com/docs/installation
 - https://tailwind-elements.com/docs/standard/components/gallery/
